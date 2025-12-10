@@ -2,7 +2,7 @@
 const nextConfig = {
     devIndicators: false,
     images: {
-    qualities: [75, 100], // add your custom quality values here
+    qualities: [75, 100],
   },
 };
 

@@ -52,7 +52,6 @@ const Footer = () => {
             {
               footer?.contactDetails.map((item, index) => (
                 <ul key={index} className="text-MidnightNavyText  flex flex-col">
-
                   {
                     item.url.startsWith("https") ? <li className="flex items-center gap-3">
                       {item.icon}
